@@ -2,10 +2,12 @@ import os
 from dotenv import load_dotenv
 from langchain_community.llms import Ollama
 from langchain_openai import ChatOpenAI, OpenAI, OpenAIEmbeddings
+"""
 from langchain_anthropic import ChatAnthropic
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI, HarmBlockThreshold, HarmCategory
+"""
 
 
 # Load environment variables
